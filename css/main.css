@@ -1,0 +1,273 @@
+*{
+  font-family: 'Karla', sans-serif;
+  font-size:12px;
+}
+
+.padded {
+  padding:0 20px;
+  width:940px;
+}
+.clear {
+  clear:both;
+}
+
+/*IMPOR MARGEM ESQUERDA=0 NO CAROUSEL*/
+li {
+  margin:0;
+}
+
+#container {
+  width:980px;
+  margin:auto;
+}
+
+#header {
+  background-color: #000;
+  height:60px;
+}
+
+.fonte{
+  color:#FFF;
+  font-size:30px;
+  padding:11px 0px;
+}
+
+.botaoLateral {
+  float:right;
+  width:115px;
+  height:21px;
+  background-position:0 -801px;
+  margin-top:18px;
+  text-indent:-99999px;
+  border-radius:4px;
+}
+
+.botaoLateral:hover {
+  background-position:0 -874px;
+}
+
+.navBotao,#navEndereco {
+  line-height:30px;
+  color:#1A1A1A}
+  .navBotao {
+  font-size:13px;
+  width:110px;
+  height:30px;
+  text-align:center;
+  display:inline-block;
+  text-decoration:none;
+}
+
+.navBotao:hover {
+  background:#000;
+  color:#FFF;
+}
+
+#navEndereco {
+  float:right;
+  font-size:14px;
+} 
+
+/*CAROUSEL*/
+.jcarousel-container {
+  width:980px;
+  overflow:hidden;
+}
+
+#heroCarousel img {
+  width:980px;
+  height:565px;
+}
+
+#carouselNav {
+  height:20px;
+  margin-top:-20px;
+}
+
+.carouselNav {
+  width:192px;
+  margin-left:5px;
+  margin-top:10px;
+  height:10px;
+  position:relative;
+  background-color:#B5B5B4;
+  display:inline-block;
+  float:left;
+}
+
+.carouselNav {
+  -webkit-transition:height .1s linear,margin-top .1s linear;
+  -moz-transition:height .1s linear, margin-top .1s linear;
+  transition:height .1s linear, margin-top .1s linear;
+}
+
+.carouselNav:first-child {
+  margin-left:0;
+}
+
+.carouselNav:hover {
+  background-color:#1A1A1A;
+}
+
+.carouselNav.on {
+  height:20px;
+  margin-top:0;
+  background-color:#1A1A1A;
+}
+
+
+/*LOGO LATERAL*/
+.logo {
+  position:fixed;
+  top:10%;
+  right:10;
+}
+
+
+/*1 FAIXA PRETA*/
+#sobre {
+  background:#1A1A1A;
+  color:#FFF;
+  /*padding:30px 20px 30px;*/
+}
+
+
+/*SUPER TITULOS*/
+.frase {
+  border:1px solid #FFF;
+  border-left:0;
+  border-right:0;
+  font-size:30px;
+  text-transform:uppercase;
+  text-align:center;
+  padding:10px 60px;
+}
+.frase2 {
+  font-size:30px;
+  text-transform:uppercase;
+  text-align:center;
+  padding:10px 0px 10px 0px;
+}
+
+/*DESCRIÇÃO DOUTOR*/
+#sobre p {
+  /*float:left;*/
+  width: auto;
+  /*466px*/
+  clear:none;
+  margin-top:40px;
+  font-size:13px;
+  line-height:20px;
+}
+
+#sobre p.first{
+  margin-right:20px;
+}
+
+/*TRATAMENTOS*/
+#tratamentos {
+  position:relative;
+  top:50px;
+}
+
+#tratamentos>div {
+  float:left;
+}
+
+#tratamentos p {
+  margin:0;
+  font-size:13px;
+  line-height:20px;
+}
+#tratamentosLista {
+  width:300px;
+  margin-right:20px;
+  margin-bottom:80px
+}
+
+#tratamentos p.tratamentosHeader {
+  font-size:16px;
+  border-bottom:1px solid #1A1A1A;
+  margin-bottom:10px;
+  padding-bottom:10px;
+}
+.first.tratamentosLista {
+  margin-right:20px;
+}
+
+.tratamentosLista {
+  width:140px;
+  float:left;
+}
+
+/*PROCEDIMENTOS*/
+#convenio {
+  width:620px;
+}
+
+
+/*CONTATO*/
+#contato {
+  margin-top:360px;
+  margin-bottom:40px;
+}
+
+#contato a{
+  color:#1A1A1A;
+}
+
+#contatoInfo {
+  width:220px;
+  margin-right:20px;
+  float:left;
+}
+
+#contato p {
+  font-size:13px;
+  line-height:20px;
+}
+#contato p.contatoHeader {
+  font-size:18px;
+  padding:0 0 20px;
+  border-bottom:1px solid #1A1A1A;
+  margin-bottom:20px;
+  margin-top:-80;
+}
+#contato p.contatoSectionHeader {
+  font-size:16px;
+  line-height:20px;
+}
+
+/*MAPA*/
+#contatoMapa {
+  width:700px;
+  float:left;
+  margin-top:-80;
+}
+
+/*RODAPÉ*/
+#footer{
+  background:#1A1A1A;
+  color:#FFF;
+  font-size:13px;
+}
+#legal {
+float:left;
+line-height:40px;
+}
+
+#linksRodape{
+  float:right;
+  line-height:40px;
+}
+
+#linksRodape a{
+  text-decoration:none;
+  color:#FFF;
+}
+
+@media only screen and (max-width: 320px) and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+}

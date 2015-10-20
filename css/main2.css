@@ -1,0 +1,225 @@
+*{
+  font-family: 'Karla', sans-serif;
+  font-size:12px;
+}
+
+.padded {
+  padding:0 20px;
+  width:940px;
+}
+.clear {
+  clear:both;
+}
+
+/*IMPOR MARGEM ESQUERDA=0 NO CAROUSEL*/
+li {
+  margin:0;
+}
+
+#container {
+  width:980px;
+  margin:auto;
+}
+
+#header {
+  background-color: #000;
+  height:60px;
+}
+
+.fonte{
+  color:#FFF;
+  font-size:30px;
+  padding:11px 0px;
+}
+
+.botaoLateral {
+  float:right;
+  width:115px;
+  height:21px;
+  background-position:0 -801px;
+  margin-top:18px;
+  text-indent:-99999px;
+  border-radius:4px;
+}
+
+.botaoLateral:hover {
+  background-position:0 -874px;
+}
+
+.navBotao,#navEndereco {
+  line-height:30px;
+  color:#1A1A1A}
+  .navBotao {
+  font-size:13px;
+  width:110px;
+  height:30px;
+  text-align:center;
+  display:inline-block;
+  text-decoration:none;
+}
+
+.navBotao:hover {
+  background:#000;
+  color:#FFF;
+}
+
+#navEndereco {
+  float:right;
+  font-size:14px;
+} 
+
+/*1 FAIXA PRETA*/
+#sobre {
+  background:#1A1A1A;
+  color:#FFF;
+  padding:30px 20px 30px;
+}
+
+/*SUPER TITULOS*/
+.frase {
+  border:1px solid #FFF;
+  border-left:0;
+  border-right:0;
+  font-size:30px;
+  text-transform:uppercase;
+  text-align:center;
+  padding:10px 60px;
+}
+.frase2 {
+  font-size:30px;
+  text-transform:uppercase;
+  text-align:center;
+  padding:10px 0px 10px 0px;
+}
+
+/*TRATAMENTOS*/
+#tratamentos {
+  position:relative;
+  top:50px;
+}
+
+#tratamentos>div {
+  float:left;
+}
+
+#tratamentos p {
+  margin:0;
+  font-size:13px;
+  line-height:20px;
+}
+
+/*PROCEDIMENTOS*/
+#convenio {
+  width:620px;
+}
+
+/*CASOS CLÍNICOS*/
+.casoClinico p {
+  margin:0;
+}
+
+#casosClinicos {
+/*2 FAIXA PRETA*/
+  margin-top:100px; /*AQUI*/
+  background-color:#1A1A1A;
+  color:#FFF;
+  height:1700px;
+
+  /*CASOS*/
+  position:relative;
+  top:0px;
+}
+
+.casoClinico {
+  float:left;
+  width:450px;
+  margin-top:20px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom:35px;
+}
+
+p.casoClinicoTitulo {
+  text-align:center;
+  font-size:16px;
+  margin-bottom:10px;
+}
+
+.casoClinicoDescricao{
+  text-align:center;
+  font-size:13px;
+}
+
+/*FOTOS CASOS CLÍNICOS*/
+.view {
+   width: 450px;
+   height: 311px;
+   /*margin: 10px;*/
+   float: left;
+   border: 5px solid #FFF;
+   border-left:0;
+   border-right:0;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+   margin-bottom:10px;
+}
+.view .mask {
+   width: 450px;
+   height: 311px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+
+.view-fifth .mask {
+   -webkit-transform: translateX(450px);
+   -moz-transform: translateX(450px);
+   -o-transform: translateX(450px);
+   -ms-transform: translateX(450px);
+   transform: translateX(450px);
+}
+
+.view-fifth:hover .mask {
+   -webkit-transform: translateX(0px);
+   -moz-transform: translateX(0px);
+   -o-transform: translateX(0px);
+   -ms-transform: translateX(0px);
+   transform: translateX(0px);
+}
+
+.view-fifth:hover img {
+   -webkit-transform: translateX(-450px);
+   -moz-transform: translateX(-450px);
+   -o-transform: translateX(-450px);
+   -ms-transform: translateX(-450px);
+   transform: translateX(-450px);
+}
+
+/*RODAPÉ*/
+#footer{
+  background:#1A1A1A;
+  color:#FFF;
+  font-size:13px;
+}
+
+#legal {
+float:left;
+line-height:40px;
+}
+
+#linksRodape{
+  float:right;
+  line-height:40px;
+}
+
+#linksRodape a{
+  text-decoration:none;
+  color:#FFF;
+}
